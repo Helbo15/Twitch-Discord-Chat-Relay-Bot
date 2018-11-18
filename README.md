@@ -23,3 +23,6 @@ DISCORD_BOT_TOKEN =
 You also need to install the following dependencies:
 
 DiscordPY Rewrite
+irc.bot
+requests
+asyncio
