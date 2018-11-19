@@ -50,7 +50,7 @@ class ChatRelay:
     def run(self):
          
         print("hello ChatRelay program!")
-        objDiscordChat = DiscordChat(int(self.configFile.get("Discord","WebHook_Id")),self.configFile.get("Discord","WebHook_Token"),self.configFile.get("Discord","DISCORD_BOT_TOKEN"))
+        objDiscordChat = DiscordChat(int(self.configFile.get("Discord","WebHook_Id")),self.configFile.get("Discord","WebHook_Token"),self.configFile.get("Discord","DISCORD_BOT_TOKEN"),self.configFile.get("Discord","DISCORD_CHANNEL_NAME"))
         objTwitchChat = TwitchChat(self.configFile.get("Twitch","BotUserName"),self.configFile.get("Twitch","Client_id"),self.configFile.get("Twitch","Token"),self.configFile.get("Twitch","Channel"))
         
         taskDiscord = threading.Thread(target = objDiscordChat.run , name= "DiscordRecieveThread")
