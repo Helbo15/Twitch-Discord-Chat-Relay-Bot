@@ -18,7 +18,5 @@ class TDCRBot:
         
 
 if __name__ == "__main__":
-
-
     app = TDCRBot()
     app.run()
