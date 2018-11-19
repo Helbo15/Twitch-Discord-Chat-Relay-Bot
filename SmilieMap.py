@@ -1,4 +1,3 @@
-import discord 
 class SmilieTranslation:
 
     def __init__(self):
