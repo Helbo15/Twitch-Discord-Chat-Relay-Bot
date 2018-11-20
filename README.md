@@ -23,3 +23,4 @@ DISCORD_BOT_TOKEN =
 DISCORD_CHANNEL_NAME = 
 
 
+in the requirements is all dependencies However the discord.py have to be the rewrite version. 
