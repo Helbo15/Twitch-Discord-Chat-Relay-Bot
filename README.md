@@ -22,9 +22,4 @@ DISCORD_BOT_TOKEN =
 
 DISCORD_CHANNEL_NAME = 
 
-You also need to install the following dependencies:
 
-DiscordPY Rewrite,
-irc.bot,
-requests,
-asyncio,
