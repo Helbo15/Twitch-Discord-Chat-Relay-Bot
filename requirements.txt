@@ -7,3 +7,4 @@ requests==2.20.1
 docutils==0.14
 nacl==0.0.0
 youtube_dl==2018.11.18
+discord.py==1.0.0a
